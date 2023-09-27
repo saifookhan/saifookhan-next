@@ -1686,15 +1686,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@contentlayer/cli@npm:0.3.1":
-  version: 0.3.1
-  resolution: "@contentlayer/cli@npm:0.3.1"
+"@contentlayer/cli@npm:0.3.3":
+  version: 0.3.3
+  resolution: "@contentlayer/cli@npm:0.3.3"
   dependencies:
-    "@contentlayer/core": 0.3.1
-    "@contentlayer/utils": 0.3.1
+    "@contentlayer/core": 0.3.3
+    "@contentlayer/utils": 0.3.3
     clipanion: ^3.2.0
     typanion: ^3.12.1
-  checksum: 4723ffb794bb28ec1685e9720c3ccbd109fb10cd64b8de406edea3508f4870ae81b1a0cd336b02ef53eb14c584b99931025a8a9988498ad7a2e6cf170afbd063
+  checksum: 73f4f9c11b58bacd644369715166f5936c4aa1b37524ec3626563b72007d754b193e860e0b5c75b757a6830c618b89f341bb9204113341d323a6b308874883af
   languageName: node
   linkType: hard
 
@@ -1710,12 +1710,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@contentlayer/client@npm:0.3.1":
-  version: 0.3.1
-  resolution: "@contentlayer/client@npm:0.3.1"
+"@contentlayer/client@npm:0.3.3":
+  version: 0.3.3
+  resolution: "@contentlayer/client@npm:0.3.3"
   dependencies:
-    "@contentlayer/core": 0.3.1
-  checksum: ac416f2963c47b8932368ab4099cd8dcc76930818a15612c66a6502111136ab2f8b07c5e5add6682cea43b117716dcb181ebed35e9412c040b209cfb3eb69bce
+    "@contentlayer/core": 0.3.3
+  checksum: bf648fa841997ed5b8a047679c89abc1a939fb55c89d92981375c3888fcf1f1de00c780a8b3db5103d041f456df23ef2fc2f421121d156be33549f73dcf67a50
   languageName: node
   linkType: hard
 
@@ -1728,11 +1728,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@contentlayer/core@npm:0.3.1":
-  version: 0.3.1
-  resolution: "@contentlayer/core@npm:0.3.1"
+"@contentlayer/core@npm:0.3.3":
+  version: 0.3.3
+  resolution: "@contentlayer/core@npm:0.3.3"
   dependencies:
-    "@contentlayer/utils": 0.3.1
+    "@contentlayer/utils": 0.3.3
     camel-case: ^4.1.2
     comment-json: ^4.2.3
     esbuild: 0.17.x
@@ -1740,10 +1740,10 @@ __metadata:
     mdx-bundler: ^9.2.1
     rehype-stringify: ^9.0.3
     remark-frontmatter: ^4.0.1
-    remark-parse: ^10.0.1
+    remark-parse: ^10.0.2
     remark-rehype: ^10.1.0
     source-map-support: ^0.5.21
-    type-fest: ^3.7.1
+    type-fest: ^3.11.1
     unified: ^10.1.2
   peerDependencies:
     esbuild: 0.17.x
@@ -1753,7 +1753,7 @@ __metadata:
       optional: true
     markdown-wasm:
       optional: true
-  checksum: a588c49d977472c9894e85991a72b2488cc569fc4fbc8089ff75d9e5e50bdbda1dde9233ca143ca74b656844ee24019475a6e86422c0572288ade9849dedbbbd
+  checksum: 10d2ccb112466c190205254863b8eea34dfb83b37358a52e5867fdee4aa00c7aec27086fd07c743186acb2be8263b339535a50efd78285f12316c13006fe9777
   languageName: node
   linkType: hard
 
@@ -1786,22 +1786,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@contentlayer/source-files@npm:0.3.1":
-  version: 0.3.1
-  resolution: "@contentlayer/source-files@npm:0.3.1"
+"@contentlayer/source-files@npm:0.3.3":
+  version: 0.3.3
+  resolution: "@contentlayer/source-files@npm:0.3.3"
   dependencies:
-    "@contentlayer/core": 0.3.1
-    "@contentlayer/utils": 0.3.1
+    "@contentlayer/core": 0.3.3
+    "@contentlayer/utils": 0.3.3
     chokidar: ^3.5.3
     fast-glob: ^3.2.12
     gray-matter: ^4.0.3
     imagescript: ^1.2.16
     micromatch: ^4.0.5
-    ts-pattern: ^4.2.2
+    ts-pattern: ^4.3.0
     unified: ^10.1.2
     yaml: ^1.10.2
     zod: ^3.21.4
-  checksum: 38e007836b8f886379854cd932592e943c4822a7cd009c5534915107844d893b52b8008be73a7c4e32d9fef6619716eddafdb16aee34c39e8bfe2768ce304deb
+  checksum: 0944f06d6e417a43105218330e51986de0f3e2eb69f9b238b0aada8187da3b4342b6a0bce62894d02161d07d5f608ae33ad03eb6e97f33cff3c79986e86dc669
   languageName: node
   linkType: hard
 
@@ -1824,14 +1824,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@contentlayer/source-remote-files@npm:0.3.1":
-  version: 0.3.1
-  resolution: "@contentlayer/source-remote-files@npm:0.3.1"
+"@contentlayer/source-remote-files@npm:0.3.3":
+  version: 0.3.3
+  resolution: "@contentlayer/source-remote-files@npm:0.3.3"
   dependencies:
-    "@contentlayer/core": 0.3.1
-    "@contentlayer/source-files": 0.3.1
-    "@contentlayer/utils": 0.3.1
-  checksum: 0fdcc81d8e856c0494ff9314de4d57658d0549b60933d3d9247c795a72ff35b870841e43936b92319109fc340194125343d1592ecd806afe8ad99e6f87c3608c
+    "@contentlayer/core": 0.3.3
+    "@contentlayer/source-files": 0.3.3
+    "@contentlayer/utils": 0.3.3
+  checksum: f7536d5f5180de57b41539b77a47eded517e241e104058de24482e1b709b7cbf23205e0619cbd95ccbe0a6f09e82faae7f82512c8d0874c2713ca7b30d8fcabe
   languageName: node
   linkType: hard
 
@@ -1846,29 +1846,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@contentlayer/utils@npm:0.3.1":
-  version: 0.3.1
-  resolution: "@contentlayer/utils@npm:0.3.1"
+"@contentlayer/utils@npm:0.3.3":
+  version: 0.3.3
+  resolution: "@contentlayer/utils@npm:0.3.3"
   dependencies:
-    "@effect-ts/core": ^0.60.2
-    "@effect-ts/otel": ^0.14.0
-    "@effect-ts/otel-exporter-trace-otlp-grpc": ^0.14.0
-    "@effect-ts/otel-sdk-trace-node": ^0.14.0
-    "@js-temporal/polyfill": ^0.4.3
-    "@opentelemetry/api": ~1.1.0
-    "@opentelemetry/core": ~1.5.0
-    "@opentelemetry/exporter-trace-otlp-grpc": ~0.31.0
-    "@opentelemetry/resources": ~1.5.0
-    "@opentelemetry/sdk-trace-base": ~1.5.0
-    "@opentelemetry/sdk-trace-node": ~1.5.0
-    "@opentelemetry/semantic-conventions": ~1.5.0
+    "@effect-ts/core": ^0.60.5
+    "@effect-ts/otel": ^0.15.1
+    "@effect-ts/otel-exporter-trace-otlp-grpc": ^0.15.1
+    "@effect-ts/otel-sdk-trace-node": ^0.15.1
+    "@js-temporal/polyfill": ^0.4.4
+    "@opentelemetry/api": ^1.4.1
+    "@opentelemetry/core": ^1.13.0
+    "@opentelemetry/exporter-trace-otlp-grpc": ^0.39.1
+    "@opentelemetry/resources": ^1.13.0
+    "@opentelemetry/sdk-trace-base": ^1.13.0
+    "@opentelemetry/sdk-trace-node": ^1.13.0
+    "@opentelemetry/semantic-conventions": ^1.13.0
     chokidar: ^3.5.3
     hash-wasm: ^4.9.0
     inflection: ^2.0.1
-    memfs: ^3.4.13
-    oo-ascii-tree: ^1.79.0
-    ts-pattern: ^4.2.2
-    type-fest: ^3.7.1
+    memfs: ^3.5.1
+    oo-ascii-tree: ^1.82.0
+    ts-pattern: ^4.3.0
+    type-fest: ^3.11.1
   peerDependenciesMeta:
     "@effect-ts/core":
       optional: true
@@ -1876,7 +1876,7 @@ __metadata:
       optional: true
     "@effect-ts/otel-node":
       optional: true
-  checksum: 47b38e0c9d85cd16650a921544c7c2cf06710f5026bf9f647f155e477f15d8a25c94099314cd63efd0ab04a52adadb9173eaa3934aee0129229e09f552deb7c7
+  checksum: 9f474ea8e61bfd9323335a8017d7cda236a6c66f795844fa68ed0fe6a89138809f2b87695ffd44ff9ea144443818113affa2f2c4c4989adab9d7402920822249
   languageName: node
   linkType: hard
 
@@ -1947,27 +1947,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@effect-ts/core@npm:^0.60.2, @effect-ts/core@npm:^0.60.5":
+"@effect-ts/core@npm:^0.60.5":
   version: 0.60.5
   resolution: "@effect-ts/core@npm:0.60.5"
   dependencies:
     "@effect-ts/system": ^0.57.5
   checksum: c1236ce2f261a4547379061c80eb55ca476d3638289b2d2b54fb491aabe2ad9e325e1774c948f34572d9bceb07c0e74f1be2d69b060673c0b1df44f149dae164
-  languageName: node
-  linkType: hard
-
-"@effect-ts/otel-exporter-trace-otlp-grpc@npm:^0.14.0":
-  version: 0.14.1
-  resolution: "@effect-ts/otel-exporter-trace-otlp-grpc@npm:0.14.1"
-  dependencies:
-    "@effect-ts/otel": ^0.14.1
-  peerDependencies:
-    "@effect-ts/core": ^0.60.2
-    "@opentelemetry/api": ^1.1.0
-    "@opentelemetry/core": ^1.5.0
-    "@opentelemetry/exporter-trace-otlp-grpc": ^0.31.0
-    "@opentelemetry/sdk-trace-base": ^1.5.0
-  checksum: 76257d24657ba771a1adeaec3d78b73eb5d09c875f50c805c72799aae437e3dec2c4b64ddddff5a851b0cb9a3d64643b977e64284bcd0a00dcf58400bdfe9ac7
   languageName: node
   linkType: hard
 
@@ -1986,21 +1971,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@effect-ts/otel-sdk-trace-node@npm:^0.14.0":
-  version: 0.14.1
-  resolution: "@effect-ts/otel-sdk-trace-node@npm:0.14.1"
-  dependencies:
-    "@effect-ts/otel": ^0.14.1
-  peerDependencies:
-    "@effect-ts/core": ^0.60.2
-    "@opentelemetry/api": ^1.1.0
-    "@opentelemetry/core": ^1.5.0
-    "@opentelemetry/sdk-trace-base": ^1.5.0
-    "@opentelemetry/sdk-trace-node": ^1.5.0
-  checksum: 9ae114ae15d5503a8219314e8228fb4094aee9dc7933259308cefbd16f44d60b490ec99b247049ba2b1f960f772d94b996ee6c64eb79e9a03f538f8c0d64945b
-  languageName: node
-  linkType: hard
-
 "@effect-ts/otel-sdk-trace-node@npm:^0.15.1":
   version: 0.15.1
   resolution: "@effect-ts/otel-sdk-trace-node@npm:0.15.1"
@@ -2013,18 +1983,6 @@ __metadata:
     "@opentelemetry/sdk-trace-base": ^1.13.0
     "@opentelemetry/sdk-trace-node": ^1.13.0
   checksum: 70a5ba0ced3d15a4d66bb49f914822d1e1e9f4028da2cb64fa9d27d2596ab3ed59b2d889d0fedd87383749861f8dcf72b993a543150f4a5c8b24faa93350dc39
-  languageName: node
-  linkType: hard
-
-"@effect-ts/otel@npm:^0.14.0, @effect-ts/otel@npm:^0.14.1":
-  version: 0.14.1
-  resolution: "@effect-ts/otel@npm:0.14.1"
-  peerDependencies:
-    "@effect-ts/core": ^0.60.2
-    "@opentelemetry/api": ^1.1.0
-    "@opentelemetry/core": ^1.5.0
-    "@opentelemetry/sdk-trace-base": ^1.5.0
-  checksum: c39f352f6e4bb7bfe6edf9228d53e2e81e645843fd62c2e961620efab2cb92fead3d2efb228e1b93b6454e4739d74227bf8e3561731b9ee2f1640e09f824c818
   languageName: node
   linkType: hard
 
@@ -2535,7 +2493,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@js-temporal/polyfill@npm:^0.4.3, @js-temporal/polyfill@npm:^0.4.4":
+"@js-temporal/polyfill@npm:^0.4.4":
   version: 0.4.4
   resolution: "@js-temporal/polyfill@npm:0.4.4"
   dependencies:
@@ -2618,10 +2576,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:13.2.4":
-  version: 13.2.4
-  resolution: "@next/env@npm:13.2.4"
-  checksum: 4123e08a79e66d6144006972027a9ceb8f3fdd782c4a869df1eb3b91b59ad9f4a44082d3f8e421f4df5214c6bc7190b52b94881369452d65eb4580485f33b9e6
+"@next/env@npm:13.3.0":
+  version: 13.3.0
+  resolution: "@next/env@npm:13.3.0"
+  checksum: 17dbea6d019df98f8abebadcaed635d792c69368389c7869ca023acfba240294368a58eda761fb8047403b84e82edf25ea2af45afe06cc1807a25de42e256dd3
   languageName: node
   linkType: hard
 
@@ -2634,93 +2592,65 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/swc-android-arm-eabi@npm:13.2.4":
-  version: 13.2.4
-  resolution: "@next/swc-android-arm-eabi@npm:13.2.4"
-  conditions: os=android & cpu=arm
-  languageName: node
-  linkType: hard
-
-"@next/swc-android-arm64@npm:13.2.4":
-  version: 13.2.4
-  resolution: "@next/swc-android-arm64@npm:13.2.4"
-  conditions: os=android & cpu=arm64
-  languageName: node
-  linkType: hard
-
-"@next/swc-darwin-arm64@npm:13.2.4":
-  version: 13.2.4
-  resolution: "@next/swc-darwin-arm64@npm:13.2.4"
+"@next/swc-darwin-arm64@npm:13.3.0":
+  version: 13.3.0
+  resolution: "@next/swc-darwin-arm64@npm:13.3.0"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:13.2.4":
-  version: 13.2.4
-  resolution: "@next/swc-darwin-x64@npm:13.2.4"
+"@next/swc-darwin-x64@npm:13.3.0":
+  version: 13.3.0
+  resolution: "@next/swc-darwin-x64@npm:13.3.0"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-freebsd-x64@npm:13.2.4":
-  version: 13.2.4
-  resolution: "@next/swc-freebsd-x64@npm:13.2.4"
-  conditions: os=freebsd & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@next/swc-linux-arm-gnueabihf@npm:13.2.4":
-  version: 13.2.4
-  resolution: "@next/swc-linux-arm-gnueabihf@npm:13.2.4"
-  conditions: os=linux & cpu=arm
-  languageName: node
-  linkType: hard
-
-"@next/swc-linux-arm64-gnu@npm:13.2.4":
-  version: 13.2.4
-  resolution: "@next/swc-linux-arm64-gnu@npm:13.2.4"
+"@next/swc-linux-arm64-gnu@npm:13.3.0":
+  version: 13.3.0
+  resolution: "@next/swc-linux-arm64-gnu@npm:13.3.0"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:13.2.4":
-  version: 13.2.4
-  resolution: "@next/swc-linux-arm64-musl@npm:13.2.4"
+"@next/swc-linux-arm64-musl@npm:13.3.0":
+  version: 13.3.0
+  resolution: "@next/swc-linux-arm64-musl@npm:13.3.0"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:13.2.4":
-  version: 13.2.4
-  resolution: "@next/swc-linux-x64-gnu@npm:13.2.4"
+"@next/swc-linux-x64-gnu@npm:13.3.0":
+  version: 13.3.0
+  resolution: "@next/swc-linux-x64-gnu@npm:13.3.0"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:13.2.4":
-  version: 13.2.4
-  resolution: "@next/swc-linux-x64-musl@npm:13.2.4"
+"@next/swc-linux-x64-musl@npm:13.3.0":
+  version: 13.3.0
+  resolution: "@next/swc-linux-x64-musl@npm:13.3.0"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:13.2.4":
-  version: 13.2.4
-  resolution: "@next/swc-win32-arm64-msvc@npm:13.2.4"
+"@next/swc-win32-arm64-msvc@npm:13.3.0":
+  version: 13.3.0
+  resolution: "@next/swc-win32-arm64-msvc@npm:13.3.0"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-ia32-msvc@npm:13.2.4":
-  version: 13.2.4
-  resolution: "@next/swc-win32-ia32-msvc@npm:13.2.4"
+"@next/swc-win32-ia32-msvc@npm:13.3.0":
+  version: 13.3.0
+  resolution: "@next/swc-win32-ia32-msvc@npm:13.3.0"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:13.2.4":
-  version: 13.2.4
-  resolution: "@next/swc-win32-x64-msvc@npm:13.2.4"
+"@next/swc-win32-x64-msvc@npm:13.3.0":
+  version: 13.3.0
+  resolution: "@next/swc-win32-x64-msvc@npm:13.3.0"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -4196,6 +4126,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"busboy@npm:1.6.0":
+  version: 1.6.0
+  resolution: "busboy@npm:1.6.0"
+  dependencies:
+    streamsearch: ^1.1.0
+  checksum: 32801e2c0164e12106bf236291a00795c3c4e4b709ae02132883fe8478ba2ae23743b11c5735a0aae8afe65ac4b6ca4568b91f0d9fed1fdbc32ede824a73746e
+  languageName: node
+  linkType: hard
+
 "cacache@npm:^17.0.0":
   version: 17.1.4
   resolution: "cacache@npm:17.1.4"
@@ -4561,19 +4500,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"contentlayer@npm:0.3.1":
-  version: 0.3.1
-  resolution: "contentlayer@npm:0.3.1"
+"contentlayer@npm:0.3.3":
+  version: 0.3.3
+  resolution: "contentlayer@npm:0.3.3"
   dependencies:
-    "@contentlayer/cli": 0.3.1
-    "@contentlayer/client": 0.3.1
-    "@contentlayer/core": 0.3.1
-    "@contentlayer/source-files": 0.3.1
-    "@contentlayer/source-remote-files": 0.3.1
-    "@contentlayer/utils": 0.3.1
+    "@contentlayer/cli": 0.3.3
+    "@contentlayer/client": 0.3.3
+    "@contentlayer/core": 0.3.3
+    "@contentlayer/source-files": 0.3.3
+    "@contentlayer/source-remote-files": 0.3.3
+    "@contentlayer/utils": 0.3.3
   bin:
     contentlayer: ./bin/cli.cjs
-  checksum: da17f6cf25e75b2d8a4286b827bd26b4a2c6adde438bac75706723fc2e105cf1f0d66e571e68a7dc091bb778c10131c1dc2378fac84bceaf6d93a0cc02929d8b
+  checksum: 8bf013ca44a413f7c07b580b4018eb5fdaf64e1d6d69ff1c552d35aadc43e925d0bab0f5922c77300af18b8bfd5f2bf09e15649e95203dfc5ef026f4154b6d5d
   languageName: node
   linkType: hard
 
@@ -8049,7 +7988,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"memfs@npm:^3.4.13, memfs@npm:^3.5.1":
+"memfs@npm:^3.5.1":
   version: 3.5.3
   resolution: "memfs@npm:3.5.3"
   dependencies:
@@ -8788,17 +8727,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-contentlayer@npm:0.3.1":
-  version: 0.3.1
-  resolution: "next-contentlayer@npm:0.3.1"
+"next-contentlayer@npm:0.3.3":
+  version: 0.3.3
+  resolution: "next-contentlayer@npm:0.3.3"
   dependencies:
-    "@contentlayer/core": 0.3.1
-    "@contentlayer/utils": 0.3.1
+    "@contentlayer/core": 0.3.3
+    "@contentlayer/utils": 0.3.3
   peerDependencies:
     next: ^12 || ^13
     react: "*"
     react-dom: "*"
-  checksum: c18922951a711b8978ddf1ba7e6197e226117f69c02ec4552523fb870aa8eaceb0bcf9bf81d604f04de51c70fdbc35add47f5e6d0722392086561446e22d94b7
+  checksum: e7857e7e625176820d575f439a29ec994765f6f4963cf4af4f87bc7a4d0f451fe341d88815ec54c8ebbb9810cd8d171004ceed7e95808c1cb6145a327bf3dd1d
   languageName: node
   linkType: hard
 
@@ -8828,47 +8767,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:13.2.4":
-  version: 13.2.4
-  resolution: "next@npm:13.2.4"
+"next@npm:13.3.0":
+  version: 13.3.0
+  resolution: "next@npm:13.3.0"
   dependencies:
-    "@next/env": 13.2.4
-    "@next/swc-android-arm-eabi": 13.2.4
-    "@next/swc-android-arm64": 13.2.4
-    "@next/swc-darwin-arm64": 13.2.4
-    "@next/swc-darwin-x64": 13.2.4
-    "@next/swc-freebsd-x64": 13.2.4
-    "@next/swc-linux-arm-gnueabihf": 13.2.4
-    "@next/swc-linux-arm64-gnu": 13.2.4
-    "@next/swc-linux-arm64-musl": 13.2.4
-    "@next/swc-linux-x64-gnu": 13.2.4
-    "@next/swc-linux-x64-musl": 13.2.4
-    "@next/swc-win32-arm64-msvc": 13.2.4
-    "@next/swc-win32-ia32-msvc": 13.2.4
-    "@next/swc-win32-x64-msvc": 13.2.4
+    "@next/env": 13.3.0
+    "@next/swc-darwin-arm64": 13.3.0
+    "@next/swc-darwin-x64": 13.3.0
+    "@next/swc-linux-arm64-gnu": 13.3.0
+    "@next/swc-linux-arm64-musl": 13.3.0
+    "@next/swc-linux-x64-gnu": 13.3.0
+    "@next/swc-linux-x64-musl": 13.3.0
+    "@next/swc-win32-arm64-msvc": 13.3.0
+    "@next/swc-win32-ia32-msvc": 13.3.0
+    "@next/swc-win32-x64-msvc": 13.3.0
     "@swc/helpers": 0.4.14
+    busboy: 1.6.0
     caniuse-lite: ^1.0.30001406
     postcss: 8.4.14
     styled-jsx: 5.1.1
   peerDependencies:
-    "@opentelemetry/api": ^1.4.0
+    "@opentelemetry/api": ^1.1.0
     fibers: ">= 3.1.0"
     node-sass: ^6.0.0 || ^7.0.0
     react: ^18.2.0
     react-dom: ^18.2.0
     sass: ^1.3.0
   dependenciesMeta:
-    "@next/swc-android-arm-eabi":
-      optional: true
-    "@next/swc-android-arm64":
-      optional: true
     "@next/swc-darwin-arm64":
       optional: true
     "@next/swc-darwin-x64":
-      optional: true
-    "@next/swc-freebsd-x64":
-      optional: true
-    "@next/swc-linux-arm-gnueabihf":
       optional: true
     "@next/swc-linux-arm64-gnu":
       optional: true
@@ -8895,7 +8823,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: 8531dee41b60181b582f5ee80858907b102f083ef8808ff9352d589dd39e6b3a96f7a11b3776a03eef3a28430cff768336fa2e3ff2c6f8fcd699fbc891749051
+  checksum: 24e0e013e867a825ff7d1f49587e696147ea8f9ff42946121fe0dce25f9bcc9b1d5941425fa7cef3b8c0e6f1c3daa7f09f758ac5a8aa15aa66c3b31a07465081
   languageName: node
   linkType: hard
 
@@ -9186,7 +9114,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"oo-ascii-tree@npm:^1.79.0":
+"oo-ascii-tree@npm:^1.82.0":
   version: 1.89.0
   resolution: "oo-ascii-tree@npm:1.89.0"
   checksum: f2cdd959576477c1e1b389c9a27033a2fe1bc6bd8a19c714d4da45dc3ed6ddfcc457c118e9e1ec9e91f0593658e549fbc61f282e4881cd9b36e67377b233ee99
@@ -10421,7 +10349,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-parse@npm:^10.0.0, remark-parse@npm:^10.0.1, remark-parse@npm:^10.0.2":
+"remark-parse@npm:^10.0.0, remark-parse@npm:^10.0.2":
   version: 10.0.2
   resolution: "remark-parse@npm:10.0.2"
   dependencies:
@@ -10878,6 +10806,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"streamsearch@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "streamsearch@npm:1.1.0"
+  checksum: 1cce16cea8405d7a233d32ca5e00a00169cc0e19fbc02aa839959985f267335d435c07f96e5e0edd0eadc6d39c98d5435fb5bbbdefc62c41834eadc5622ad942
+  languageName: node
+  linkType: hard
+
 "string-argv@npm:0.3.2":
   version: 0.3.2
   resolution: "string-argv@npm:0.3.2"
@@ -11187,7 +11122,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^6.1.0
     "@typescript-eslint/parser": ^6.1.0
     autoprefixer: ^10.4.13
-    contentlayer: 0.3.1
+    contentlayer: 0.3.3
     cross-env: ^7.0.3
     esbuild: 0.18.11
     eslint: ^8.45.0
@@ -11199,8 +11134,8 @@ __metadata:
     husky: ^8.0.0
     image-size: 1.0.0
     lint-staged: ^13.0.0
-    next: 13.2.4
-    next-contentlayer: 0.3.1
+    next: 13.3.0
+    next-contentlayer: 0.3.3
     next-themes: ^0.2.1
     pliny: 0.1.2
     postcss: ^8.4.24
@@ -11394,7 +11329,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-pattern@npm:^4.2.2, ts-pattern@npm:^4.3.0":
+"ts-pattern@npm:^4.3.0":
   version: 4.3.0
   resolution: "ts-pattern@npm:4.3.0"
   checksum: f5167f6f721212c1e22f8590bb1fc21e27fd591d6fc5af0e467778f8e5b2dc1ae490cf5c633c83a3021a61283a671a53faf250b081c17c0f025e73eb775e5fe3
@@ -11450,7 +11385,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^3.12.0, type-fest@npm:^3.7.1":
+"type-fest@npm:^3.11.1, type-fest@npm:^3.12.0":
   version: 3.13.1
   resolution: "type-fest@npm:3.13.1"
   checksum: c06b0901d54391dc46de3802375f5579868949d71f93b425ce564e19a428a0d411ae8d8cb0e300d330071d86152c3ea86e744c3f2860a42a79585b6ec2fdae8e
